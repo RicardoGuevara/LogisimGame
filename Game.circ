@@ -597,4 +597,93 @@
       <a name="label" val="colisioninput"/>
     </comp>
   </circuit>
+  <circuit name="AsteroidController">
+    <a name="circuit" val="AsteroidController"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(430,120)" to="(430,190)"/>
+    <wire from="(110,150)" to="(110,170)"/>
+    <wire from="(110,130)" to="(110,150)"/>
+    <wire from="(360,210)" to="(360,290)"/>
+    <wire from="(190,200)" to="(230,200)"/>
+    <wire from="(360,140)" to="(360,170)"/>
+    <wire from="(260,130)" to="(300,130)"/>
+    <wire from="(260,230)" to="(300,230)"/>
+    <wire from="(260,330)" to="(300,330)"/>
+    <wire from="(330,340)" to="(370,340)"/>
+    <wire from="(80,80)" to="(110,80)"/>
+    <wire from="(430,190)" to="(460,190)"/>
+    <wire from="(330,290)" to="(360,290)"/>
+    <wire from="(360,170)" to="(380,170)"/>
+    <wire from="(330,240)" to="(350,240)"/>
+    <wire from="(360,210)" to="(380,210)"/>
+    <wire from="(110,80)" to="(130,80)"/>
+    <wire from="(110,100)" to="(130,100)"/>
+    <wire from="(170,80)" to="(190,80)"/>
+    <wire from="(190,150)" to="(190,200)"/>
+    <wire from="(110,130)" to="(190,130)"/>
+    <wire from="(260,80)" to="(260,130)"/>
+    <wire from="(260,180)" to="(260,230)"/>
+    <wire from="(260,280)" to="(260,330)"/>
+    <wire from="(230,80)" to="(230,200)"/>
+    <wire from="(370,220)" to="(370,340)"/>
+    <wire from="(370,90)" to="(370,160)"/>
+    <wire from="(350,180)" to="(350,190)"/>
+    <wire from="(110,80)" to="(110,100)"/>
+    <wire from="(260,80)" to="(300,80)"/>
+    <wire from="(260,180)" to="(300,180)"/>
+    <wire from="(260,280)" to="(300,280)"/>
+    <wire from="(330,90)" to="(370,90)"/>
+    <wire from="(230,80)" to="(260,80)"/>
+    <wire from="(330,140)" to="(360,140)"/>
+    <wire from="(350,200)" to="(380,200)"/>
+    <wire from="(350,180)" to="(380,180)"/>
+    <wire from="(330,190)" to="(350,190)"/>
+    <wire from="(410,190)" to="(430,190)"/>
+    <wire from="(110,150)" to="(130,150)"/>
+    <wire from="(110,170)" to="(130,170)"/>
+    <wire from="(350,200)" to="(350,240)"/>
+    <wire from="(170,150)" to="(190,150)"/>
+    <wire from="(190,80)" to="(190,130)"/>
+    <wire from="(430,120)" to="(440,120)"/>
+    <wire from="(260,130)" to="(260,180)"/>
+    <wire from="(370,160)" to="(380,160)"/>
+    <wire from="(370,220)" to="(380,220)"/>
+    <wire from="(260,230)" to="(260,280)"/>
+    <comp lib="4" loc="(170,150)" name="T Flip-Flop"/>
+    <comp lib="4" loc="(330,290)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="1" loc="(410,190)" name="AND Gate">
+      <a name="width" val="32"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="6"/>
+    </comp>
+    <comp lib="4" loc="(330,140)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(330,240)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(80,80)" name="Clock"/>
+    <comp lib="5" loc="(460,190)" name="DotMatrix">
+      <a name="inputtype" val="row"/>
+      <a name="matrixcols" val="32"/>
+      <a name="matrixrows" val="2"/>
+    </comp>
+    <comp lib="4" loc="(330,90)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(330,340)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(170,80)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(440,120)" name="Probe">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="4" loc="(330,190)" name="Random">
+      <a name="width" val="32"/>
+    </comp>
+  </circuit>
 </project>
