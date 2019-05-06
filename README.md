@@ -24,6 +24,10 @@
 
 <img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/cascada.JPG">
 
+## Poin system
+
+<img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/poinsistem.JPG">
+
 # FULL CIRC
 
 <img scr="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/complete.JPG">
