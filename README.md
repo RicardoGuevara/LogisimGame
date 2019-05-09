@@ -1,5 +1,7 @@
 # LOGISIM GAME
 
+<img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/complete.JPG">
+
 ## Bar controller:
 
 <img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/BarController.JPG">
@@ -24,10 +26,10 @@
 
 <img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/cascada.JPG">
 
-## Poin system
+## Point system
 
-<img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/poinsistem.JPG">
+<img src="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/pointsistem.JPG">
 
-# FULL CIRC
+# ideas
 
-<img scr="https://github.com/RicardoGuevara/LogisimGame/blob/master/images/complete.JPG">
+flip de asteroids to the right and to the left in "hard" mode
